@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Interacting : MonoBehaviour
 {
-	[SerializeField] private KeyCode interactionKey = KeyCode.E;
+	[SerializeField] private KeyCode interactionKey = KeyCode.Return;
 	[SerializeField] private float interactingRange = 2;
 
 	private void Update()
