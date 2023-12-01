@@ -78,7 +78,6 @@ public class Grabbing : MonoBehaviour
 
 			// Attempt to perform a pull or a grab
 			AttemptPull();
-
 		}
 		// Did the user just press the grab key, and we're holding
 		// something?
