@@ -115,6 +115,8 @@ public class Grabbing : MonoBehaviour
 
 		// We need to drop what we're holding before we can throw it
 		Drop();
+
+		Debug.Log("Throwing");
 	}
 
 	// Attempts to pull or pick up the object directly ahead of this
@@ -249,5 +251,4 @@ public class Grabbing : MonoBehaviour
 		// after ourselves.
 		Drop();
 	}
-
 }
