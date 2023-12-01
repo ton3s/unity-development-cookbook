@@ -22,9 +22,4 @@ public class Interactable : MonoBehaviour
 						other.name, this.name);
 	}
 
-	private void OnTriggerStay(Collider other)
-	{
-		Debug.LogFormat("Object {0} remained in trigger {1}!",
-					other.name, this.name);
-	}
 }
